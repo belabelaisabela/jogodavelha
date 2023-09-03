@@ -2,13 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+    <meta name="theme-color" content="white" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="fullscreen">
+<body>
+    <center>
     <div class="container">
-        <h1>PWA jogo da velhaa</h1>
+        <h1>Jogo da velha</h1>
+        <div class="jogo">
+            <button data-i="1"></button>
+            <button data-i="2"></button>
+            <button data-i="3"></button>
+            <button data-i="4"></button>
+            <button data-i="5"></button>
+            <button data-i="6"></button>
+            <button data-i="7"></button>
+            <button data-i="8"></button>
+            <button data-i="9"></button>
+        </div>
+            <h3 class="jogador"></h3>
+            <script src="js/main.js"></script>
     </div>
+
+</center>
 </body>
 </html>

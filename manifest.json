@@ -1,0 +1,22 @@
+{
+    "name": "Desafio Jogo da velha",
+    "short_name": "Jogo da velha",
+    "icons": [
+        {
+            "src": "images/pwa-icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/pwa-icon-512.png",
+            "sizes": "512x512",
+            "types": "image/png"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}
